@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import logo from './logo.jpg';
 import './App.css';
+import Name from './components/Names.js'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} id="logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This website was made by the following Hack WashU members:
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Name />
+        </header>
     </div>
   );
 }
