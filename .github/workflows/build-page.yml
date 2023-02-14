@@ -8,12 +8,11 @@ on:
     branches: [ "main" ]
 
 jobs:
-  defaults:
-    run:
-      working-directory: 'react-app'
-
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 'react-app'
 
     steps:
     - uses: actions/checkout@v3
