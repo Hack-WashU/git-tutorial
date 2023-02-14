@@ -8,8 +8,11 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  defaults:
+    run:
+      working-directory: 'react-app'
 
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,8 +22,6 @@ jobs:
       with:
         node-version: 18
         cache: 'npm'
-        cache-dependency-path: "react-app/package-lock.json"
+        cache-dependency-path: "**/package-lock.json"
     - run: npm run build
-      working-directory: ./react-app
     - run: npm run deploy
-      working-directory: ./react-app
