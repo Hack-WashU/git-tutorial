@@ -1,4 +1,4 @@
-PACKAGE := $(shell which abcd)
+PACKAGE := $(shell which pnpm)
 
 .PHONY: all install run
 
