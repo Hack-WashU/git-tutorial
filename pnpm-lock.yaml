@@ -7,7 +7,7 @@ specifiers:
   gh-pages: ^5.0.0
   react: ^18.2.0
   react-dom: ^18.2.0
-  react-scripts: 5.0.1
+  react-scripts: ^5.0.1
   web-vitals: ^2.1.4
 
 dependencies:
@@ -2316,7 +2316,7 @@ packages:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
       '@types/eslint': 8.21.0
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
     dev: false
 
   /@types/eslint/8.21.0:
@@ -4633,7 +4633,7 @@ packages:
       doctrine: 2.1.0
       eslint: 8.34.0
       estraverse: 5.3.0
-      jsx-ast-utils: 2.4.1
+      jsx-ast-utils: 3.3.3
       minimatch: 3.1.2
       object.entries: 1.1.6
       object.fromentries: 2.0.6
@@ -6671,14 +6671,6 @@ packages:
   /jsonpointer/5.0.1:
     resolution: {integrity: sha512-p/nXbhSEcu3pZRdkW1OfJhpsVtW1gd4Wa1fnQc9YLiTfAjn0312eMKimbdIQzuZl9aa9xUGaRlP9T/CJE/ditQ==}
     engines: {node: '>=0.10.0'}
-    dev: false
-
-  /jsx-ast-utils/2.4.1:
-    resolution: {integrity: sha512-z1xSldJ6imESSzOjd3NNkieVJKRlKYSOtMG8SFyCj2FIrvSaSuli/WjpBkEzCBoR9bYYYFgqJw61Xhu7Lcgk+w==}
-    engines: {node: '>=4.0'}
-    dependencies:
-      array-includes: 3.1.6
-      object.assign: 4.1.4
     dev: false
 
   /jsx-ast-utils/3.3.3:
