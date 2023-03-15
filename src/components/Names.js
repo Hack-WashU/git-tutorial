@@ -5,6 +5,7 @@ export default function Name() {
         <div>
             <p><a id="jackh" href="https://github.com/jackheuberger">Jack Heuberger</a></p>
             <p><a id="emily" href="https://github.com/emilyws27">Emily Sheehan</a></p>
+            <p><a id='Aj' href='https://github.com/EgeKeskin'>Ege Keskin</a></p>
 
         </div>
     );
